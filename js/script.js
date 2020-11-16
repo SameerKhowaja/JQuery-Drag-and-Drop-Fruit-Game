@@ -1,5 +1,5 @@
 var correctCards = 0;
-var timer = 35;
+var timer = 36;
 var score = 0;
 var level = 1;
 
@@ -70,7 +70,7 @@ function handleCardDrop(event, ui) {
         level += 1;
         document.getElementById("levels").innerHTML = level;
 
-        timer += 5;
+        timer += 1;
         document.getElementById("timer").innerHTML = timer;
 
         $(init);
