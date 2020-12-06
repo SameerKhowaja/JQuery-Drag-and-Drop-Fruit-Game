@@ -1,8 +1,0 @@
-CREATE DATABASE fruitgame;
-
-CREATE TABLE `score` (
-  `id` int(50) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `f_name` varchar(50) NOT NULL,
-  `f_level` varchar(250) NOT NULL,
-  `f_score` varchar(250) NOT NULL
-);
